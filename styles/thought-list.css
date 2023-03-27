@@ -1,0 +1,94 @@
+#thought-list__section {
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+#thought-list__section h1,
+#thought-list__section a {
+    text-align: center;
+}
+
+#thought-list__section a{
+    max-width: fit-content;
+}
+
+.thought-list {
+    max-width: 80%;
+    min-height: fit-content;
+    display: block;
+    margin: 2rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.list-header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.list-header h5 {
+    font-size: 1.50rem;
+    color: #F6E1C3;
+}
+
+
+.list-item {
+    max-width: 100%;
+    min-height: 10rem;
+    margin-bottom: .75rem;
+    position: relative;
+}
+
+.list-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.list-content {
+    min-height: 30%;
+    background-color: #F6E1C3;
+    padding: .75rem .50rem;
+
+}
+
+.list-date{
+    color: rgb(104, 211, 104);
+    padding: .75rem 0;
+}
+
+.list-header h5,.list-header button {
+    padding: 0;
+    margin: 0;
+}
+
+.settings-div {
+    max-width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings-div button {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+    
+}
+
+#backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+
+
+  

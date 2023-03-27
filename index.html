@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/formstyle.css">
+    <link rel="stylesheet" href="./styles/thought-list.css">
+    <link rel="stylesheet" href="./styles/update-form.css">
+    <script src="./scripts/main-script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+   <main id="main">
+  
+        <form id="thought-form">
+            <button type="button" id="close">x</button>
+            <div class="form-control">
+                
+                <input type="text" name="header" placeholder="Your title here. . .">
+            </div>
+    
+            <div class="form-control">
+                <textarea name="content" cols="30" 
+                rows="10" maxlength="420" placeholder="Your content here. . . "
+                ></textarea>
+            </div>
+    
+            
+             <input type="submit" value="Add">
+            
+        </form>
+    
+     
+        <button id="add" class="hide"> <span>+</span> <span><p>Add Your Thoughts</p></span></button>
+       
+        
+        <a href="#thought-list__section">View Your Thoughts</a>
+
+   
+   </main>
+
+    <section id="thought-list__section">
+      
+        <ul class="thought-list"></ul>
+
+   
+    </section>
+    
+</body>
+</html>

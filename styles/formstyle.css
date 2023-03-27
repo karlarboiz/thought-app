@@ -1,0 +1,88 @@
+main {
+   text-align: center;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+main h1 {
+    color: #E9A178;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+#thought-form {
+    position: relative;
+}
+
+#add {
+    width: 30rem;
+    border: 2.5px dotted #F6E1C3;
+    text-align: center;
+    padding: 1.75rem 0;
+    margin: 0 auto;
+    color: #F6E1C3;
+    background-color: #7A3E65;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+#add span {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+input[type="text"],textarea {
+    border-radius: .50rem;
+    border: none;
+    padding: .75rem .90rem;
+    font-family: 'Manrope', sans-serif;
+    width: 30rem;
+    margin-bottom: .75rem;
+    font-size: 1.25rem;
+}
+
+input[type="text"] {
+    min-height: 1.5rem;
+}
+
+input[type="submit"] {
+    padding: .75rem .50rem;
+    width: 30rem;
+    border-radius: .50rem;
+    border: none;
+    font-size: 1.25rem;
+    background-color: #E9A178;
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+
+    resize: none;
+}
+
+#close {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: -2rem;
+    left: 95%;
+    cursor: pointer;
+    background-color: #E9A178;
+    border: 1.5px solid aliceblue;
+    box-sizing: border-box;
+}
